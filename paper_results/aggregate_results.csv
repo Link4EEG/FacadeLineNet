@@ -1,0 +1,6 @@
+﻿Model,N,Mean image mIoU,Archived mean,Difference,Provenance
+U-Net,61,0.7692631170744431,0.7692631170744431,0.0,recomputed from stored native masks
+Hybrid v2,61,0.8570185508467051,0.8570185508467051,0.0,recomputed from stored native masks
+A5 seed 0,61,0.8801838846556307,0.8801838846556307,0.0,archived native evaluation JSON
+A5 seed 1,61,0.8743228152675134,0.8743228152675134,0.0,archived native evaluation JSON
+A5 seed 2,61,0.8874114711415262,0.8874114711415262,0.0,archived native evaluation JSON

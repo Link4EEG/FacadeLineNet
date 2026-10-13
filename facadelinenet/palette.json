@@ -1,0 +1,198 @@
+{
+  "ignore_index": 255,
+  "snap_tolerance": 4,
+  "classes": [
+    {
+      "id": 0,
+      "name": "Background",
+      "colour": "White",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "description": "Space surrounding the image and small visible gaps, such as gaps in handrails or narrow openings between wall, eave, and downpipe"
+    },
+    {
+      "id": 1,
+      "name": "Lines",
+      "colour": "Black",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "description": "All lines that define the image"
+    },
+    {
+      "id": 2,
+      "name": "Roof",
+      "colour": "Yellow",
+      "rgb": [
+        200,
+        200,
+        0
+      ],
+      "description": "Sloping and curved roofs, edges of flat roofs, exposed top slabs forming the uppermost covering of the building, and integral roof-edge components such as gutters, fascia boards, barge boards, and parapet copings"
+    },
+    {
+      "id": 3,
+      "name": "Walls",
+      "colour": "Grey",
+      "rgb": [
+        140,
+        140,
+        140
+      ],
+      "description": "Primary wall surfaces of the facade, including chimneys with wall-like construction"
+    },
+    {
+      "id": 4,
+      "name": "Glass panes",
+      "colour": "Light blue",
+      "rgb": [
+        0,
+        160,
+        255
+      ],
+      "description": "Large glass panes and individual panes within mullioned windows, excluding glazing incorporated into doors or balustrades"
+    },
+    {
+      "id": 5,
+      "name": "Window frames",
+      "colour": "Orange",
+      "rgb": [
+        255,
+        160,
+        0
+      ],
+      "description": "Window frames and mullions in single-pane and subdivided windows."
+    },
+    {
+      "id": 6,
+      "name": "Doors",
+      "colour": "Dark blue",
+      "rgb": [
+        0,
+        0,
+        150
+      ],
+      "description": "Ground-level doors and doors to balconies or terraces at upper levels, including their glazing"
+    },
+    {
+      "id": 7,
+      "name": "Detailing",
+      "colour": "Green",
+      "rgb": [
+        0,
+        150,
+        0
+      ],
+      "description": "Applied architectural articulation and decorative elements, including engaged columns, decorative lintels, string courses, and mouldings"
+    },
+    {
+      "id": 8,
+      "name": "Stairs",
+      "colour": "Red",
+      "rgb": [
+        200,
+        0,
+        0
+      ],
+      "description": "Stairs shown in elevation or profile"
+    },
+    {
+      "id": 9,
+      "name": "Handrails",
+      "colour": "Purple",
+      "rgb": [
+        150,
+        0,
+        150
+      ],
+      "description": "Handrails associated with stairs, balconies, or terraces"
+    },
+    {
+      "id": 10,
+      "name": "Glass balustrades",
+      "colour": "Cyan",
+      "rgb": [
+        0,
+        255,
+        255
+      ],
+      "description": "Glass panels used as balustrades or handrail infill on stairs, balconies, decks, or terraces"
+    },
+    {
+      "id": 11,
+      "name": "Columns",
+      "colour": "Magenta",
+      "rgb": [
+        255,
+        0,
+        255
+      ],
+      "description": "Freestanding columns"
+    },
+    {
+      "id": 12,
+      "name": "Garage Doors",
+      "colour": "Dark Green",
+      "rgb": [
+        50,
+        80,
+        0
+      ],
+      "description": "Garage doors"
+    },
+    {
+      "id": 13,
+      "name": "Foundation",
+      "colour": "Pink",
+      "rgb": [
+        255,
+        160,
+        230
+      ],
+      "description": "The foundation such as entry slabs that are visible from the front of the house"
+    },
+    {
+      "id": 14,
+      "name": "Decks",
+      "colour": "Brown",
+      "rgb": [
+        150,
+        75,
+        0
+      ],
+      "description": "External occupiable slabs or platforms, including projecting, recessed, rectangular, and L-shaped decks"
+    },
+    {
+      "id": 15,
+      "name": "Overhangs and awnings",
+      "colour": "Coral",
+      "rgb": [
+        255,
+        100,
+        80
+      ],
+      "description": "Projecting elements that provide shade or weather protection, including overhangs, awnings, canopies, and entrance covers, where not supported on a column"
+    },
+    {
+      "id": 16,
+      "name": "Other",
+      "colour": "Teal",
+      "rgb": [
+        0,
+        150,
+        150
+      ],
+      "description": "Small ancillary, service, or technical elements, including downpipes, exterior wall lamps, chimney pots, vents, utility fixtures, and infrequently occurring elements such as mounted solar panels, as well as segments too small to categorise efficiently, including one-pixel-wide regions"
+    }
+  ],
+  "interpretive_rules": [
+    "Detailing vs Other: if the element contributes to the architectural articulation or ornamental composition of the facade, classify it as Detailing. If it primarily performs a small service, utility, or equipment function, classify it as Other.",
+    "Walls vs Detailing: detailing is applied to the face of the wall; walls are the primary mass surface.",
+    "Very small or functionally minor elements that cannot be consistently separated are assigned to Other."
+  ]
+}

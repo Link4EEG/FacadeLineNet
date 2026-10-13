@@ -1,0 +1,2 @@
+image,width,height,connectivity,normalisation_scope,normalisation_area_px,architectural_area_px,architectural_area_fraction,N_seg,A_bar_seg,CV_area,L_boundary,C_boundary,H_area,PP_area
+schematic_facade.png,512,512,4,image,262144,108378,0.41342926025390625,13,0.03180225078876202,1.1983791379013302,7434.0,4.008407197618102,1.573974312832418,2.9772375001838314

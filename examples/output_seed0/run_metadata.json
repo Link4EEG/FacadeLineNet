@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "python": "3.12.4",
+  "mode": "A5",
+  "connectivity": 4,
+  "normalisation": "image",
+  "excluded_image_index_classes": [
+    0,
+    1
+  ],
+  "area_sd_ddof": 0,
+  "perimeter": "exposed 4-neighbour unit pixel edges; holes included; shared interfaces counted for both segments",
+  "centroids": "pixel centres x+0.5,y+0.5; origin top-left",
+  "bounding_boxes": "zero-based [xmin,ymin,xmax,ymax), maxima exclusive",
+  "empty_architectural_mask": "N_seg and L_boundary=0; undefined means/CV/entropy/perplexity=null (blank CSV)",
+  "images": [
+    {
+      "image": "schematic_facade.png",
+      "sha256": "da4688c6ee011211aa3c469c6507ac137bf2d799bd8fb9fc07f103b4526c3733",
+      "width": 512,
+      "height": 512,
+      "seconds": 1.0320000000001528
+    }
+  ],
+  "weights_filename": "A5_seed0.pt",
+  "weights_sha256": "ec9f0ffc2db2a44be4eada80795c45f3f3d03c3c7c77d35187dffec84fcfd0d1",
+  "seed": 0,
+  "checkpoint_iteration": 6000,
+  "device": "cuda",
+  "precision": "bf16",
+  "torch": "2.7.0+cu126",
+  "torchvision": "0.22.0+cu126"
+}

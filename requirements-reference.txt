@@ -1,0 +1,6 @@
+# Versions used by the original A5 experiment. Select the appropriate torch wheel for your device.
+torch==2.7.0
+torchvision==0.22.0
+numpy==1.26.4
+scipy==1.13.1
+Pillow>=10,<13

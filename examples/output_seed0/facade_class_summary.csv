@@ -1,0 +1,18 @@
+image,class_id,class_name,included_in_indices,segment_count,total_area_px,min_segment_area_px,max_segment_area_px,mean_segment_area_px,median_segment_area_px,sd_segment_area_px
+schematic_facade.png,0,Background,False,1,139527,139527,139527,139527.0,139527.0,0.0
+schematic_facade.png,1,Lines,False,6,14239,810,9457,2373.1666666666665,1054.0,3169.8653187302593
+schematic_facade.png,2,Roof,True,1,18072,18072,18072,18072.0,18072.0,0.0
+schematic_facade.png,3,Walls,True,3,61764,2569,32276,20588.0,26919.0,12927.686903180578
+schematic_facade.png,4,Glass panes,True,7,23662,2400,5586,3380.285714285714,2480.0,1172.1654825012324
+schematic_facade.png,5,Window frames,True,0,0,,,,,
+schematic_facade.png,6,Doors,True,2,4880,2400,2480,2440.0,2440.0,40.0
+schematic_facade.png,7,Detailing,True,0,0,,,,,
+schematic_facade.png,8,Stairs,True,0,0,,,,,
+schematic_facade.png,9,Handrails,True,0,0,,,,,
+schematic_facade.png,10,Glass balustrades,True,0,0,,,,,
+schematic_facade.png,11,Columns,True,0,0,,,,,
+schematic_facade.png,12,Garage Doors,True,0,0,,,,,
+schematic_facade.png,13,Foundation,True,0,0,,,,,
+schematic_facade.png,14,Decks,True,0,0,,,,,
+schematic_facade.png,15,Overhangs and awnings,True,0,0,,,,,
+schematic_facade.png,16,Other,True,0,0,,,,,

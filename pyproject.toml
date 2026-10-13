@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "facadelinenet"
+version = "1.0.0"
+description = "Native-resolution architectural facade segmentation and semantic structure indices"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "Pillow>=10,<13", "torch>=2.6,<3", "torchvision>=0.21,<1"]
+[project.scripts]
+facadelinenet = "facadelinenet.cli:main"
+[tool.setuptools.packages.find]
+include = ["facadelinenet*"]
+[tool.setuptools.package-data]
+facadelinenet = ["palette.json"]

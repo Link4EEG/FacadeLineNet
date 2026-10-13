@@ -1,0 +1,1153 @@
+{
+  "stage": "A5",
+  "seed": 1,
+  "checkpoint_iter": 4000,
+  "canvas": 0,
+  "ink_rule": true,
+  "gt_space": "native",
+  "test": {
+    "miou": 0.8743228152675134,
+    "miou_nobg": 0.8593204507491735,
+    "thin": 0.8088772799106341,
+    "pixacc": 0.9807490971205656,
+    "per_class": {
+      "Background": 0.9979037215141261,
+      "Lines": 0.9968576872957212,
+      "Roof": 0.9298112505687248,
+      "Walls": 0.8903355229888109,
+      "Glass panes": 0.9044490801588994,
+      "Window frames": 0.8589490987823222,
+      "Doors": 0.8572379896261061,
+      "Handrails": 0.7203503138614868,
+      "Columns": 0.6211271557930509,
+      "Foundation": 0.8387204187172659,
+      "Overhangs and awnings": 0.16666666666666666,
+      "Stairs": 0.7683794040327306,
+      "Garage Doors": 0.9961033173036619,
+      "Other": 0.5395075402483186,
+      "Glass balustrades": 0.8909965877876013,
+      "Decks": 0.7949477674340739,
+      "Detailing": 0.05815273643578181
+    },
+    "n": 61,
+    "per_image": [
+      {
+        "file": "355_2021_2071_C_EL.png",
+        "miou": 0.7093292040127402,
+        "miou_nobg": 0.684433760686892,
+        "thin": 0.6660477120006771,
+        "pixacc": 0.9452247906802095,
+        "ious": {
+          "Background": 0.958284,
+          "Lines": 1.0,
+          "Roof": 0.933859,
+          "Walls": 0.608186,
+          "Glass panes": 0.659934,
+          "Window frames": 0.896846,
+          "Doors": 0.421315,
+          "Handrails": 0.896694,
+          "Columns": 0.536698,
+          "Foundation": 0.890805,
+          "Overhangs and awnings": 0.0
+        }
+      },
+      {
+        "file": "275_1995_2770_C_EL.png",
+        "miou": 0.9078406459199465,
+        "miou_nobg": 0.8994625463976527,
+        "thin": 0.738147605083089,
+        "pixacc": 0.9956496195864202,
+        "ious": {
+          "Background": 1.0,
+          "Lines": 1.0,
+          "Roof": 0.948494,
+          "Walls": 0.993004,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Stairs": 1.0,
+          "Handrails": 0.95259,
+          "Garage Doors": 1.0,
+          "Foundation": 1.0,
+          "Overhangs and awnings": 0.0
+        }
+      },
+      {
+        "file": "229_2023_2070_C_EL.png",
+        "miou": 0.8961219948322234,
+        "miou_nobg": 0.8857343649360555,
+        "thin": 0.7912245354824267,
+        "pixacc": 0.9901641700963304,
+        "ious": {
+          "Background": 0.999998,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.937201,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.964019,
+          "Handrails": 0.956123,
+          "Garage Doors": 1.0,
+          "Overhangs and awnings": 0.0,
+          "Other": 1.0
+        }
+      },
+      {
+        "file": "070_NA_2020_C_EL.png",
+        "miou": 0.8259482748930843,
+        "miou_nobg": 0.8066109866868323,
+        "thin": 0.6442464125363148,
+        "pixacc": 0.9824032779287382,
+        "ious": {
+          "Background": 0.999984,
+          "Lines": 1.0,
+          "Roof": 0.790398,
+          "Walls": 0.954573,
+          "Glass panes": 0.937542,
+          "Window frames": 0.856986,
+          "Doors": 1.0,
+          "Columns": 0.72,
+          "Foundation": 1.0,
+          "Overhangs and awnings": 0.0
+        }
+      },
+      {
+        "file": "246_NA_2086_C_EL.png",
+        "miou": 0.7612648803702382,
+        "miou_nobg": 0.7314238933360039,
+        "thin": 0.4995182294576089,
+        "pixacc": 0.9918489119115202,
+        "ious": {
+          "Background": 0.999993,
+          "Lines": 0.998689,
+          "Roof": 0.97269,
+          "Walls": 0.880628,
+          "Glass panes": 1.0,
+          "Window frames": 0.999384,
+          "Columns": 0.0,
+          "Garage Doors": 1.0,
+          "Overhangs and awnings": 0.0
+        }
+      },
+      {
+        "file": "217_2018_2115_C_EL.png",
+        "miou": 0.9714129052878834,
+        "miou_nobg": 0.9678459005452391,
+        "thin": 0.9277055840972431,
+        "pixacc": 0.9980723177460789,
+        "ious": {
+          "Background": 0.999949,
+          "Lines": 1.0,
+          "Roof": 0.999998,
+          "Walls": 0.984998,
+          "Glass panes": 0.983383,
+          "Window frames": 0.783117,
+          "Doors": 0.991271,
+          "Garage Doors": 1.0,
+          "Overhangs and awnings": 1.0
+        }
+      },
+      {
+        "file": "041_1980_2444_C_EL.png",
+        "miou": 0.9317057701619241,
+        "miou_nobg": 0.9256303873107771,
+        "thin": 0.9063544972860358,
+        "pixacc": 0.9876589952483565,
+        "ious": {
+          "Background": 0.998535,
+          "Lines": 1.0,
+          "Roof": 0.85056,
+          "Walls": 0.902223,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.995874,
+          "Handrails": 0.971568,
+          "Glass balustrades": 0.966559,
+          "Columns": 1.0,
+          "Garage Doors": 0.995151,
+          "Other": 0.5
+        }
+      },
+      {
+        "file": "273_2022_2223_C_EL.png",
+        "miou": 0.9401855851402557,
+        "miou_nobg": 0.9348784591003465,
+        "thin": 0.8936702250899431,
+        "pixacc": 0.9887567003535904,
+        "ious": {
+          "Background": 0.998564,
+          "Lines": 0.997307,
+          "Roof": 0.911261,
+          "Walls": 0.923476,
+          "Glass panes": 1.0,
+          "Window frames": 0.963687,
+          "Doors": 0.980575,
+          "Handrails": 0.980269,
+          "Glass balustrades": 0.919945,
+          "Columns": 0.607143,
+          "Garage Doors": 1.0,
+          "Decks": 1.0
+        }
+      },
+      {
+        "file": "099_2023_2765_C_EL.png",
+        "miou": 0.9699272779235099,
+        "miou_nobg": 0.9665873808947182,
+        "thin": 0.9770916608329371,
+        "pixacc": 0.9742661105852062,
+        "ious": {
+          "Background": 0.999986,
+          "Lines": 1.0,
+          "Roof": 0.97821,
+          "Walls": 0.815998,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.996711,
+          "Handrails": 0.949523,
+          "Glass balustrades": 0.958844,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "287_1900_2041_C_EL.png",
+        "miou": 0.8502008350190039,
+        "miou_nobg": 0.8352258249206631,
+        "thin": 0.8896866468465117,
+        "pixacc": 0.9845737690955217,
+        "ious": {
+          "Background": 0.999951,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.943625,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.958088,
+          "Handrails": 0.916294,
+          "Glass balustrades": 0.532139,
+          "Decks": 0.002112,
+          "Other": 1.0
+        }
+      },
+      {
+        "file": "043_2020_2122_C_EL.png",
+        "miou": 0.8431972770064733,
+        "miou_nobg": 0.832876549813659,
+        "thin": 0.7220194714101034,
+        "pixacc": 0.9572979162935887,
+        "ious": {
+          "Background": 0.956725,
+          "Lines": 0.987324,
+          "Roof": 1.0,
+          "Walls": 0.652362,
+          "Glass panes": 0.99638,
+          "Window frames": 0.743735,
+          "Doors": 0.976381,
+          "Handrails": 0.879039,
+          "Glass balustrades": 1.0,
+          "Garage Doors": 0.926422,
+          "Foundation": 1.0,
+          "Other": 0.0
+        }
+      },
+      {
+        "file": "189_2017_2099_C_EL.png",
+        "miou": 0.9862618150353019,
+        "miou_nobg": 0.9848879965388321,
+        "thin": 0.9932720613769718,
+        "pixacc": 0.9839420686552175,
+        "ious": {
+          "Background": 1.0,
+          "Lines": 0.997868,
+          "Walls": 0.891209,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.991311,
+          "Handrails": 1.0,
+          "Glass balustrades": 0.968493,
+          "Garage Doors": 1.0,
+          "Decks": 1.0,
+          "Other": 1.0
+        }
+      },
+      {
+        "file": "167_2023_2036_C_EL.png",
+        "miou": 0.7528026381515922,
+        "miou_nobg": 0.7253362646128801,
+        "thin": 0.6177219817556209,
+        "pixacc": 0.973601527716866,
+        "ious": {
+          "Background": 1.0,
+          "Lines": 0.999079,
+          "Roof": 0.997864,
+          "Walls": 0.956608,
+          "Glass panes": 0.452746,
+          "Window frames": 0.516628,
+          "Doors": 0.594566,
+          "Detailing": 0.33746,
+          "Garage Doors": 1.0,
+          "Foundation": 0.673077
+        }
+      },
+      {
+        "file": "176_2021_2026_C_EL.png",
+        "miou": 0.7099158024866348,
+        "miou_nobg": 0.6776848735884011,
+        "thin": 0.5509237088845743,
+        "pixacc": 0.9542395675407966,
+        "ious": {
+          "Background": 0.999994,
+          "Lines": 1.0,
+          "Roof": 0.801085,
+          "Walls": 0.902736,
+          "Glass panes": 0.708049,
+          "Window frames": 0.255458,
+          "Doors": 0.483599,
+          "Detailing": 0.0,
+          "Handrails": 0.948237,
+          "Decks": 1.0
+        }
+      },
+      {
+        "file": "357_2021_2179_C_EL.png",
+        "miou": 0.7284131178764817,
+        "miou_nobg": 0.6945242313631745,
+        "thin": 0.7438689217758985,
+        "pixacc": 0.9456839869520548,
+        "ious": {
+          "Background": 0.999524,
+          "Lines": 1.0,
+          "Walls": 0.934603,
+          "Glass panes": 0.404002,
+          "Window frames": 0.975476,
+          "Doors": 0.242113,
+          "Detailing": 0.0,
+          "Columns": 1.0,
+          "Foundation": 1.0
+        }
+      },
+      {
+        "file": "182_2023_2065_C_EL.png",
+        "miou": 0.6252479718816004,
+        "miou_nobg": 0.5786865994979776,
+        "thin": 0.3643170087974536,
+        "pixacc": 0.9340429059159613,
+        "ious": {
+          "Background": 0.997739,
+          "Lines": 0.996243,
+          "Roof": 0.952236,
+          "Walls": 0.519374,
+          "Glass panes": 0.872753,
+          "Window frames": 0.459977,
+          "Doors": 0.827861,
+          "Detailing": 0.000112,
+          "Other": 0.000936
+        }
+      },
+      {
+        "file": "262_1920_2133_C_EL.png",
+        "miou": 0.8414649073318703,
+        "miou_nobg": 0.8256158351653358,
+        "thin": 0.6629717467519076,
+        "pixacc": 0.9936859534871215,
+        "ious": {
+          "Background": 0.999956,
+          "Lines": 1.0,
+          "Roof": 0.712059,
+          "Walls": 0.991928,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.992853,
+          "Detailing": 0.0,
+          "Stairs": 0.907432,
+          "Columns": 0.651887,
+          "Foundation": 1.0
+        }
+      },
+      {
+        "file": "377_1920_2204_C_EL.png",
+        "miou": 0.7109135143083571,
+        "miou_nobg": 0.6747806253371164,
+        "thin": 0.7477412644608089,
+        "pixacc": 0.9078704687273801,
+        "ious": {
+          "Background": 0.999977,
+          "Lines": 1.0,
+          "Roof": 0.194677,
+          "Walls": 0.595796,
+          "Glass panes": 0.616807,
+          "Window frames": 0.979621,
+          "Doors": 1.0,
+          "Detailing": 0.011345,
+          "Columns": 1.0
+        }
+      },
+      {
+        "file": "392_2021_2210_C_EL.png",
+        "miou": 0.992756507719369,
+        "miou_nobg": 0.9919517025860335,
+        "thin": 1.0,
+        "pixacc": 0.9998258971461044,
+        "ious": {
+          "Background": 1.0,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.999997,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Stairs": 0.939956,
+          "Garage Doors": 1.0,
+          "Foundation": 0.987612
+        }
+      },
+      {
+        "file": "102_NA_2067_C_EL.png",
+        "miou": 0.8930909846192909,
+        "miou_nobg": 0.8813437822300557,
+        "thin": 0.9632643571262497,
+        "pixacc": 0.993089917485282,
+        "ious": {
+          "Background": 0.998816,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.943153,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.996527,
+          "Stairs": 0.993461,
+          "Handrails": 0.889793,
+          "Foundation": 0.109161
+        }
+      },
+      {
+        "file": "101_1950_2067_C_EL.png",
+        "miou": 0.71263066029931,
+        "miou_nobg": 0.6842347733872006,
+        "thin": 0.7669346209729904,
+        "pixacc": 0.9196502537454213,
+        "ious": {
+          "Background": 0.968194,
+          "Lines": 1.0,
+          "Roof": 0.832965,
+          "Walls": 0.612772,
+          "Glass panes": 0.791579,
+          "Window frames": 0.710919,
+          "Stairs": 0.770728,
+          "Handrails": 0.471358,
+          "Columns": 0.885461,
+          "Decks": 0.082331
+        }
+      },
+      {
+        "file": "139_2024_2565_C_EL.png",
+        "miou": 0.8479656152282057,
+        "miou_nobg": 0.8327634133007378,
+        "thin": 0.818072347063972,
+        "pixacc": 0.9937535908365469,
+        "ious": {
+          "Background": 0.999988,
+          "Lines": 0.999848,
+          "Roof": 0.972922,
+          "Walls": 0.929739,
+          "Glass panes": 1.0,
+          "Window frames": 0.999823,
+          "Doors": 0.999747,
+          "Stairs": 0.0,
+          "Garage Doors": 1.0,
+          "Foundation": 0.971009,
+          "Other": 0.454545
+        }
+      },
+      {
+        "file": "367_2019_2095_C_EL.png",
+        "miou": 0.7251916013914047,
+        "miou_nobg": 0.6977115069804388,
+        "thin": 0.5069452235143131,
+        "pixacc": 0.9931107940708152,
+        "ious": {
+          "Background": 0.999993,
+          "Lines": 1.0,
+          "Roof": 0.999666,
+          "Walls": 0.970596,
+          "Glass panes": 0.803645,
+          "Window frames": 0.314565,
+          "Doors": 0.733251,
+          "Stairs": 0.493033,
+          "Handrails": 0.713216,
+          "Columns": 0.0,
+          "Foundation": 0.949143
+        }
+      },
+      {
+        "file": "267_1980_2045_C_EL.png",
+        "miou": 0.9911877306959875,
+        "miou_nobg": 0.9900887623239156,
+        "thin": 1.0,
+        "pixacc": 0.99257215435212,
+        "ious": {
+          "Background": 0.999979,
+          "Lines": 1.0,
+          "Roof": 0.983243,
+          "Walls": 0.937467,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Stairs": 1.0,
+          "Foundation": 1.0
+        }
+      },
+      {
+        "file": "027_2024_2068_C_EL.png",
+        "miou": 0.6611442680855274,
+        "miou_nobg": 0.6234937119483954,
+        "thin": 0.4636585759306932,
+        "pixacc": 0.9014949910193364,
+        "ious": {
+          "Background": 0.999999,
+          "Lines": 0.969515,
+          "Roof": 1.0,
+          "Walls": 0.626975,
+          "Glass panes": 0.494835,
+          "Window frames": 0.38946,
+          "Doors": 0.287852,
+          "Stairs": 0.810805,
+          "Handrails": 0.032,
+          "Foundation": 1.0
+        }
+      },
+      {
+        "file": "060_2025_2099_C_EL.png",
+        "miou": 0.8503628455961787,
+        "miou_nobg": 0.8316598816541383,
+        "thin": 1.0,
+        "pixacc": 0.9764567880277851,
+        "ious": {
+          "Background": 0.999987,
+          "Lines": 1.0,
+          "Roof": 0.864702,
+          "Walls": 0.797385,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.991193,
+          "Foundation": 0.0,
+          "Other": 1.0
+        }
+      },
+      {
+        "file": "169_2023_2179_C_EL.png",
+        "miou": 0.8790349958560963,
+        "miou_nobg": 0.8655955992321681,
+        "thin": 0.7162643144537295,
+        "pixacc": 0.9910548017814084,
+        "ious": {
+          "Background": 0.99999,
+          "Lines": 1.0,
+          "Roof": 0.992014,
+          "Walls": 0.933289,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Columns": 0.0,
+          "Garage Doors": 1.0,
+          "Other": 0.865057
+        }
+      },
+      {
+        "file": "227_2022_2093_C_EL.png",
+        "miou": 0.7631844906165578,
+        "miou_nobg": 0.7397808779567475,
+        "thin": 0.5311106301001506,
+        "pixacc": 0.9815142223257484,
+        "ious": {
+          "Background": 0.997221,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.953741,
+          "Glass panes": 0.686828,
+          "Window frames": 0.196393,
+          "Doors": 0.76735,
+          "Handrails": 0.900961,
+          "Garage Doors": 1.0,
+          "Decks": 0.865447,
+          "Other": 0.027088
+        }
+      },
+      {
+        "file": "142_NA_2063_C_EL.png",
+        "miou": 0.7629213123920541,
+        "miou_nobg": 0.7234439368606727,
+        "thin": 0.5434582464591897,
+        "pixacc": 0.9534462842760091,
+        "ious": {
+          "Background": 0.999786,
+          "Lines": 0.99996,
+          "Roof": 0.999826,
+          "Walls": 0.387423,
+          "Doors": 0.866498,
+          "Garage Doors": 1.0,
+          "Other": 0.086957
+        }
+      },
+      {
+        "file": "324_2019_2155_C_EL.png",
+        "miou": 0.9780642937373113,
+        "miou_nobg": 0.9756311887765656,
+        "thin": 0.9555764976183846,
+        "pixacc": 0.9981621892292797,
+        "ious": {
+          "Background": 0.999962,
+          "Lines": 1.0,
+          "Roof": 0.98122,
+          "Walls": 0.997008,
+          "Glass panes": 0.960384,
+          "Window frames": 0.97094,
+          "Doors": 0.975476,
+          "Handrails": 0.89579,
+          "Garage Doors": 0.999864,
+          "Decks": 1.0
+        }
+      },
+      {
+        "file": "081_2002_2763_C_EL.png",
+        "miou": 0.8681023476745626,
+        "miou_nobg": 0.8549160042334123,
+        "thin": 0.7059113300492611,
+        "pixacc": 0.9652314560443933,
+        "ious": {
+          "Background": 0.999966,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.784902,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.940613,
+          "Handrails": 0.823645,
+          "Columns": 0.0,
+          "Garage Doors": 1.0,
+          "Decks": 1.0
+        }
+      },
+      {
+        "file": "291_2022_2100_C_EL.png",
+        "miou": 0.9647530762629232,
+        "miou_nobg": 0.9612299872969917,
+        "thin": 0.8819320214669052,
+        "pixacc": 0.9993326476304238,
+        "ious": {
+          "Background": 0.999984,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.995934,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Handrails": 0.645796,
+          "Garage Doors": 0.97057,
+          "Foundation": 1.0,
+          "Decks": 1.0
+        }
+      },
+      {
+        "file": "017_1995_2036_C_EL.png",
+        "miou": 0.8959238845351223,
+        "miou_nobg": 0.8855446317029054,
+        "thin": 0.7913216364379003,
+        "pixacc": 0.9920456404336921,
+        "ious": {
+          "Background": 0.999716,
+          "Lines": 0.999322,
+          "Roof": 1.0,
+          "Walls": 0.959565,
+          "Glass panes": 0.880138,
+          "Window frames": 0.601827,
+          "Doors": 0.854485,
+          "Handrails": 0.869501,
+          "Columns": 0.694636,
+          "Garage Doors": 0.996384,
+          "Decks": 0.999588
+        }
+      },
+      {
+        "file": "395_NA_2135_C_EL.png",
+        "miou": 0.9531451142513114,
+        "miou_nobg": 0.9479453769990595,
+        "thin": 0.9001710884389269,
+        "pixacc": 0.9984140175483713,
+        "ious": {
+          "Background": 0.999943,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.986814,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.94401,
+          "Handrails": 0.875659,
+          "Columns": 0.725025,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "368_2017_2137_C_EL.png",
+        "miou": 0.8538015688086229,
+        "miou_nobg": 0.8355274569990421,
+        "thin": 0.6666666666666666,
+        "pixacc": 0.9900411175427175,
+        "ious": {
+          "Background": 0.999994,
+          "Lines": 1.0,
+          "Roof": 0.744217,
+          "Walls": 0.940609,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.999394,
+          "Handrails": 0.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "403_1990_2092_C_EL.png",
+        "miou": 0.725025234468734,
+        "miou_nobg": 0.6857456868816488,
+        "thin": 0.6663967299089927,
+        "pixacc": 0.9649805300059804,
+        "ious": {
+          "Background": 0.999982,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.80103,
+          "Glass panes": 1.0,
+          "Window frames": 0.99919,
+          "Doors": 0.0,
+          "Handrails": 0.0
+        }
+      },
+      {
+        "file": "346_2021_2155_C_EL.png",
+        "miou": 0.9357709880492924,
+        "miou_nobg": 0.9277439468287454,
+        "thin": 0.8181818181818182,
+        "pixacc": 0.9982591027781553,
+        "ious": {
+          "Background": 0.999987,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.967406,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Columns": 0.454545,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "337_2021_2096_C_EL.png",
+        "miou": 0.8634169429194595,
+        "miou_nobg": 0.8439068454407112,
+        "thin": 0.9665427697191058,
+        "pixacc": 0.9428826688013652,
+        "ious": {
+          "Background": 0.999988,
+          "Lines": 1.0,
+          "Roof": 0.38877,
+          "Walls": 0.618949,
+          "Glass panes": 1.0,
+          "Window frames": 0.997225,
+          "Doors": 1.0,
+          "Columns": 0.902403
+        }
+      },
+      {
+        "file": "018_2025_2763_C_EL.png",
+        "miou": 0.995009300698563,
+        "miou_nobg": 0.9943874461517341,
+        "thin": 1.0,
+        "pixacc": 0.9991127017792434,
+        "ious": {
+          "Background": 0.999984,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.987658,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Columns": 1.0,
+          "Garage Doors": 0.967442
+        }
+      },
+      {
+        "file": "173_NA_2046_C_EL.png",
+        "miou": 0.9215079381085441,
+        "miou_nobg": 0.9102973760006002,
+        "thin": 0.8864992082689906,
+        "pixacc": 0.9860236787988048,
+        "ious": {
+          "Background": 0.999982,
+          "Lines": 1.0,
+          "Roof": 0.91185,
+          "Walls": 0.922246,
+          "Glass panes": 1.0,
+          "Window frames": 0.999923,
+          "Doors": 0.878488,
+          "Columns": 0.659574
+        }
+      },
+      {
+        "file": "269_2022_2179_C_EL.png",
+        "miou": 0.9610151089527014,
+        "miou_nobg": 0.9561441446661569,
+        "thin": 0.9028144426070099,
+        "pixacc": 0.9981287870404187,
+        "ious": {
+          "Background": 0.999983,
+          "Lines": 1.0,
+          "Roof": 0.988497,
+          "Walls": 0.991921,
+          "Glass panes": 0.960292,
+          "Window frames": 0.786458,
+          "Doors": 1.0,
+          "Columns": 0.921986,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "159_2017_2069_C_EL.png",
+        "miou": 0.7491935595938625,
+        "miou_nobg": 0.7213261773265137,
+        "thin": 0.6286205072819852,
+        "pixacc": 0.9914032622563863,
+        "ious": {
+          "Background": 1.0,
+          "Lines": 0.998079,
+          "Roof": 1.0,
+          "Walls": 0.990735,
+          "Glass panes": 0.588986,
+          "Window frames": 0.893564,
+          "Doors": 0.397732,
+          "Handrails": 0.0,
+          "Columns": 0.622839,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "179_2023_2018_C_EL.png",
+        "miou": 0.9398826174220467,
+        "miou_nobg": 0.9298658426646927,
+        "thin": 0.9225748538578246,
+        "pixacc": 0.9925812697773244,
+        "ious": {
+          "Background": 0.999983,
+          "Lines": 0.937434,
+          "Roof": 0.933659,
+          "Walls": 0.883018,
+          "Glass panes": 0.994794,
+          "Window frames": 0.83029,
+          "Columns": 1.0
+        }
+      },
+      {
+        "file": "332_2017_2570_C_EL.png",
+        "miou": 0.9284197517177728,
+        "miou_nobg": 0.919477597700199,
+        "thin": 0.8333333333333334,
+        "pixacc": 0.9926895964422576,
+        "ious": {
+          "Background": 0.999957,
+          "Lines": 1.0,
+          "Roof": 0.969957,
+          "Walls": 0.885864,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Columns": 0.5,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "107_2021_2069_C_EL.png",
+        "miou": 0.7848416611369257,
+        "miou_nobg": 0.7579469743189138,
+        "thin": 0.7764019585612801,
+        "pixacc": 0.9672158635125808,
+        "ious": {
+          "Background": 0.999999,
+          "Lines": 0.999877,
+          "Roof": 1.0,
+          "Walls": 0.974946,
+          "Glass panes": 0.468777,
+          "Window frames": 0.563696,
+          "Doors": 0.290657,
+          "Columns": 0.765632,
+          "Garage Doors": 0.99999
+        }
+      },
+      {
+        "file": "394_2015_2570_C_EL.png",
+        "miou": 0.8305194456977697,
+        "miou_nobg": 0.809336570781866,
+        "thin": 0.6658570004982561,
+        "pixacc": 0.9795729072332104,
+        "ious": {
+          "Background": 0.999982,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.66987,
+          "Glass panes": 1.0,
+          "Window frames": 0.997571,
+          "Doors": 0.807252,
+          "Columns": 0.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "062_2012_2212_C_EL.png",
+        "miou": 0.9406725103137252,
+        "miou_nobg": 0.9332581911605116,
+        "thin": 0.8333543318127656,
+        "pixacc": 0.9968725402775255,
+        "ious": {
+          "Background": 0.999987,
+          "Lines": 1.0,
+          "Roof": 0.99952,
+          "Walls": 0.966482,
+          "Glass panes": 1.0,
+          "Window frames": 0.998588,
+          "Doors": 1.0,
+          "Columns": 0.501475,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "187_2023_2113_C_EL.png",
+        "miou": 0.9959866337959534,
+        "miou_nobg": 0.9954869400649835,
+        "thin": 0.9971326164874551,
+        "pixacc": 0.9990952145880144,
+        "ious": {
+          "Background": 0.999984,
+          "Lines": 1.0,
+          "Roof": 0.980694,
+          "Walls": 0.999926,
+          "Glass panes": 1.0,
+          "Window frames": 0.991398,
+          "Doors": 0.991878,
+          "Columns": 1.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "350_2000_2567_C_EL.png",
+        "miou": 0.999990699903708,
+        "miou_nobg": 0.9999900413520416,
+        "thin": 1.0,
+        "pixacc": 0.9999955413671952,
+        "ious": {
+          "Background": 0.999995,
+          "Lines": 1.0,
+          "Roof": 0.99999,
+          "Walls": 0.99994,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "266_2018_2200_C_EL.png",
+        "miou": 0.9652100739023651,
+        "miou_nobg": 0.9602427211868712,
+        "thin": 1.0,
+        "pixacc": 0.9875351509366318,
+        "ious": {
+          "Background": 0.999982,
+          "Lines": 1.0,
+          "Roof": 0.794027,
+          "Walls": 0.929702,
+          "Glass panes": 0.99797,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "361_1990_2750_C_EL.png",
+        "miou": 0.9922212594825861,
+        "miou_nobg": 0.9911171430131596,
+        "thin": 0.9899912622130431,
+        "pixacc": 0.9967604593944742,
+        "ious": {
+          "Background": 0.99995,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.957837,
+          "Glass panes": 1.0,
+          "Window frames": 0.979983,
+          "Doors": 1.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "387_1994_2075_C_EL.png",
+        "miou": 0.8920530535817941,
+        "miou_nobg": 0.8766327883184944,
+        "thin": 0.811161449752883,
+        "pixacc": 0.9991680082698786,
+        "ious": {
+          "Background": 0.999995,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.998117,
+          "Glass panes": 0.909437,
+          "Window frames": 0.622323,
+          "Doors": 0.606553,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "147_2020_2155_C_EL.png",
+        "miou": 0.9999664930052236,
+        "miou_nobg": 0.9999705245782909,
+        "thin": 1.0,
+        "pixacc": 0.9999600024488297,
+        "ious": {
+          "Background": 0.999938,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.999794,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "285_2022_2762_C_EL.png",
+        "miou": 0.9980739608392665,
+        "miou_nobg": 0.9978008359842173,
+        "thin": 1.0,
+        "pixacc": 0.9990798538812382,
+        "ious": {
+          "Background": 0.999986,
+          "Lines": 1.0,
+          "Roof": 0.984672,
+          "Walls": 0.999934,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "031_2010_2035_C_EL.png",
+        "miou": 0.7198696575533547,
+        "miou_nobg": 0.6731865676862356,
+        "thin": 0.5613785557986871,
+        "pixacc": 0.9615751164111341,
+        "ious": {
+          "Background": 0.999968,
+          "Lines": 1.0,
+          "Roof": 0.617324,
+          "Walls": 0.937002,
+          "Glass panes": 0.362037,
+          "Window frames": 0.122757,
+          "Garage Doors": 1.0
+        }
+      },
+      {
+        "file": "025_NA_2148_C_EL.png",
+        "miou": 0.9967968069590449,
+        "miou_nobg": 0.9962657125345342,
+        "thin": 0.9893494530800231,
+        "pixacc": 0.9998944577969484,
+        "ious": {
+          "Background": 0.999983,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.998895,
+          "Glass panes": 1.0,
+          "Window frames": 0.978699,
+          "Doors": 1.0
+        }
+      },
+      {
+        "file": "002_2017_2020_C_EL.png",
+        "miou": 0.9861942788876237,
+        "miou_nobg": 0.9838966198601756,
+        "thin": 0.9517328065568335,
+        "pixacc": 0.9999141937896275,
+        "ious": {
+          "Background": 0.99998,
+          "Lines": 0.927773,
+          "Roof": 1.0,
+          "Walls": 0.999914,
+          "Glass panes": 1.0,
+          "Window frames": 0.975692,
+          "Doors": 1.0
+        }
+      },
+      {
+        "file": "143_2003_2229_C_EL.png",
+        "miou": 0.995786371185371,
+        "miou_nobg": 0.9950862843062888,
+        "thin": 1.0,
+        "pixacc": 0.9920005577005836,
+        "ious": {
+          "Background": 0.999987,
+          "Lines": 1.0,
+          "Roof": 1.0,
+          "Walls": 0.970518,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 1.0
+        }
+      },
+      {
+        "file": "231_2023_2101_C_EL.png",
+        "miou": 0.8930382898801735,
+        "miou_nobg": 0.8752255295158711,
+        "thin": 0.8710701052863274,
+        "pixacc": 0.9861404373824392,
+        "ious": {
+          "Background": 0.999915,
+          "Lines": 1.0,
+          "Roof": 0.910538,
+          "Walls": 0.91415,
+          "Glass panes": 0.969529,
+          "Window frames": 0.74214,
+          "Doors": 0.714996
+        }
+      },
+      {
+        "file": "311_2018_2145_C_EL.png",
+        "miou": 0.8256415619912288,
+        "miou_nobg": 0.796585736642438,
+        "thin": 0.7213040411165978,
+        "pixacc": 0.9874874801386493,
+        "ious": {
+          "Background": 0.999977,
+          "Lines": 1.0,
+          "Roof": 0.978906,
+          "Walls": 0.986734,
+          "Glass panes": 0.76612,
+          "Window frames": 0.442608,
+          "Doors": 0.605147
+        }
+      },
+      {
+        "file": "192_2017_2075_C_EL.png",
+        "miou": 0.9421718158622708,
+        "miou_nobg": 0.9325341755326549,
+        "thin": 1.0,
+        "pixacc": 0.9791857195291902,
+        "ious": {
+          "Background": 0.999998,
+          "Lines": 1.0,
+          "Roof": 0.986293,
+          "Walls": 0.811983,
+          "Glass panes": 1.0,
+          "Window frames": 1.0,
+          "Doors": 0.796929
+        }
+      }
+    ]
+  }
+}

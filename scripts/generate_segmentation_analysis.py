@@ -1,0 +1,3 @@
+import sys
+from facadelinenet.cli import main
+if __name__=='__main__': raise SystemExit(main(['--labels-only',*sys.argv[1:]]))
