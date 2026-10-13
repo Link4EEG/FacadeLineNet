@@ -1,5 +1,7 @@
 # FacadeLineNet
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23329504.svg)](https://doi.org/10.5281/zenodo.23329504)
+
 Native-resolution semantic segmentation of architectural facade line drawings,
 with automatic segment, class and image-level analysis. Input one drawing or a
 folder to obtain a 17-class mask, overlay and reproducible CSV measurements.
@@ -106,6 +108,18 @@ schematic example is illustrative; it is not evidence of model accuracy.
 
 GitHub contains current code, documentation, scripts and examples. Tagged releases
 provide all three checkpoints and an archive suitable for Zenodo. Zenodo is used
-for the fixed version, model files and a citable DOI. The DOI reserved for v1.0.1 is **10.5281/zenodo.23329504**;
-registration completes when the Zenodo record is published. See
+for the fixed version, model files and a citable DOI. The published v1.0.1 archive
+is available at **https://doi.org/10.5281/zenodo.23329504**. Zenodo distributes the
+unchanged complete ZIP in 31 parts: download `.001` through `.031`,
+`restore_archive.py` and `split_manifest.json` into one folder, then run
+`python restore_archive.py`. The script verifies and reconstructs the ZIP.
+The GitHub release also provides the complete ZIP as a single download. See
 [Zenodo release instructions](docs/ZENODO_RELEASE.md) and `CITATION.cff`.
+
+Suggested citation:
+Lee, J. H., Ostwald, M. J., & Ji, S. Y. (2026). *FacadeLineNet A5 facade
+segmentation and structural index generator* (Version 1.0.1) [Computer software].
+Zenodo. https://doi.org/10.5281/zenodo.23329504
+
+This software archive accompanies a manuscript under peer review. Software DOI
+registration does not imply acceptance or peer-review certification of that manuscript.
