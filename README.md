@@ -4,9 +4,16 @@ Native-resolution semantic segmentation of architectural facade line drawings,
 with automatic segment, class and image-level analysis. Input one drawing or a
 folder to obtain a 17-class mask, overlay and reproducible CSV measurements.
 
-Research authors: **Ju Hyun Lee, Michael J. Ostwald and Ji Seung Yeul**.
-Participating institutions: **UNSW Sydney** and **Hanyang University**.
-Author-specific affiliations will be recorded after author confirmation.
+Research authors (manuscript order):
+
+- **Ju Hyun Lee** ? School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia.
+- **Michael J. Ostwald** ? School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia.
+- **Seung Yeul Ji** ? School of Architecture, Hanyang University, Seoul, Republic of Korea; Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia (Visiting Senior Fellow).
+
+See [author affiliations and official sources](docs/AUTHORS.md).
+Software and documentation: **MIT**. A5 weights, numerical research results,
+metadata and schematic example assets: **CC BY 4.0**.
+See [licence scope and attribution](docs/RIGHTS.md).
 
 ## Install
 
@@ -99,6 +106,6 @@ schematic example is illustrative; it is not evidence of model accuracy.
 
 GitHub contains current code, documentation, scripts and examples. Tagged releases
 provide all three checkpoints and an archive suitable for Zenodo. Zenodo is used
-for the fixed version, model files and a citable DOI. DOI registration is pending;
-no DOI is claimed until the Zenodo record is published. See
+for the fixed version, model files and a citable DOI. The DOI reserved for v1.0.1 is **10.5281/zenodo.23329504**;
+registration completes when the Zenodo record is published. See
 [Zenodo release instructions](docs/ZENODO_RELEASE.md) and `CITATION.cff`.

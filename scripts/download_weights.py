@@ -9,7 +9,7 @@ def main():
     a.output.mkdir(parents=True,exist_ok=True);dest=a.output/row['filename']
     if dest.exists() and hashlib.sha256(dest.read_bytes()).hexdigest()==row['sha256']: print(f'Already verified: {dest}');return
     temp=dest.with_suffix('.download')
-    request=urllib.request.Request(row['url'],headers={'User-Agent':'FacadeLineNet/1.0.0'})
+    request=urllib.request.Request(row['url'],headers={'User-Agent':'FacadeLineNet/1.0.1'})
     with urllib.request.urlopen(request,timeout=120) as src,temp.open('wb') as out:
         while chunk:=src.read(1024*1024):out.write(chunk)
     if hashlib.sha256(temp.read_bytes()).hexdigest()!=row['sha256']: raise RuntimeError('Checkpoint hash mismatch; download not installed')

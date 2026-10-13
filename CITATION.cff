@@ -1,14 +1,23 @@
 cff-version: 1.2.0
-message: "Please cite this software and the accompanying FacadeLineNet manuscript. A Zenodo DOI will be added after archival publication."
+message: "Please cite this software and the accompanying FacadeLineNet manuscript. The Zenodo DOI is reserved and becomes registered upon archival publication."
 title: "FacadeLineNet A5 facade segmentation and structural index generator"
 type: software
-version: 1.0.0
+version: 1.0.1
+date-released: '2026-10-13'
 authors:
   - family-names: Lee
     given-names: Ju Hyun
+    affiliation: "School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia"
   - family-names: Ostwald
     given-names: Michael J.
-  - name: "Ji Seung Yeul"
+    affiliation: "School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia"
+  - family-names: Ji
+    given-names: Seung Yeul
+    affiliation: "School of Architecture, Hanyang University, Seoul, Republic of Korea; Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia (Visiting Senior Fellow)"
+doi: "10.5281/zenodo.23329504"
+license:
+  - MIT
+  - CC-BY-4.0
 repository-code: "https://github.com/Link4EEG/FacadeLineNet"
 url: "https://github.com/Link4EEG/FacadeLineNet"
 keywords:
