@@ -8,9 +8,12 @@ folder to obtain a 17-class mask, overlay and reproducible CSV measurements.
 
 Research authors (manuscript order):
 
-- **Ju Hyun Lee** ? School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia.
-- **Michael J. Ostwald** ? School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia.
-- **Seung Yeul Ji** ? School of Architecture, Hanyang University, Seoul, Republic of Korea; Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia (Visiting Senior Fellow).
+- **Ju Hyun Lee** (1).
+- **Michael J. Ostwald** (1).
+- **Seung Yeul Ji** (1, 2).
+
+1. School of Built Environment, Faculty of Arts, Design & Architecture, UNSW Sydney, Sydney, Australia.
+2. School of Architecture, Hanyang University, Seoul, Republic of Korea.
 
 See [author affiliations and official sources](docs/AUTHORS.md).
 Software and documentation: **MIT**. A5 weights, numerical research results,
