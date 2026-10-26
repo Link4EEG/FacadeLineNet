@@ -26,6 +26,8 @@ Official sources checked 13 October 2026:
 - Seung Yeul Ji: https://research.unsw.edu.au/people/dr-seung-yeul-ji
 - Hanyang University: https://adcc.hanyang.ac.kr/hanyang-university
 
-The published v1.0.1 archive remains a fixed historical snapshot. Its embedded
-author metadata predates this correction; current GitHub and Zenodo record
-metadata contain the corrected affiliations. Model weights and results are unchanged.
+The original complete GitHub v1.0.1 archive remains a fixed historical snapshot.
+Its embedded author metadata predates this correction. The current model-focused
+Zenodo package README, GitHub documentation and Zenodo record metadata contain
+the corrected affiliations. Model parameters are unchanged; the supplementary
+results remain available in the broader GitHub release.

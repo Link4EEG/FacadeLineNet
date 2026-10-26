@@ -2,9 +2,31 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23329504.svg)](https://doi.org/10.5281/zenodo.23329504)
 
-Native-resolution semantic segmentation of architectural facade line drawings,
-with automatic segment, class and image-level analysis. Input one drawing or a
-folder to obtain a 17-class mask, overlay and reproducible CSV measurements.
+FacadeLineNet A5 performs native-resolution semantic segmentation of architectural
+façade line drawings into 17 classes. The current [Zenodo model package](https://doi.org/10.5281/zenodo.23329504)
+contains **seed 0 only**, together with minimal pre-processing and single-image
+inference code. Seed 1 and seed 2 are not required to use this model.
+
+This GitHub repository also retains the broader research software, including
+batch processing, quantitative analysis and supplementary results. Those functions
+are separate from the current model-focused Zenodo download.
+
+## Start with the model package
+
+Download `FacadeLineNet-models_v2.zip` and `FacadeLineNet-models_v2.sha256`
+from [Zenodo](https://zenodo.org/records/23329504). Extract the ZIP, open its
+`FacadeLineNet-models_v2` folder, and run:
+
+```bash
+python -m pip install -r requirements.txt
+python segment.py --input "drawing.png" --output "results/drawing" --device cpu
+```
+
+The output directory must not already exist. Omit `--device cpu` to select an
+available CUDA GPU automatically. Outputs are `class_ids.png`, `segmentation.png`,
+`overlay.png` and `prediction.json`. No additional project download is required.
+See the [concise user guide](docs/MODEL_USAGE_EN.md). The commands above apply to
+the extracted Zenodo package; the sections below describe the broader GitHub software.
 
 Research authors (manuscript order):
 
@@ -109,20 +131,23 @@ schematic example is illustrative; it is not evidence of model accuracy.
 
 ## Releases and citation
 
-GitHub contains current code, documentation, scripts and examples. Tagged releases
-provide all three checkpoints and an archive suitable for Zenodo. Zenodo is used
-for the fixed version, model files and a citable DOI. The published v1.0.1 archive
-is available at **https://doi.org/10.5281/zenodo.23329504**. Zenodo distributes the
-unchanged complete ZIP in 31 parts: download `.001` through `.031`,
-`restore_archive.py` and `split_manifest.json` into one folder, then run
-`python restore_archive.py`. The script verifies and reconstructs the ZIP.
-The GitHub release also provides the complete ZIP as a single download. See
-[Zenodo release instructions](docs/ZENODO_RELEASE.md) and `CITATION.cff`.
+The current Zenodo deposit at **https://doi.org/10.5281/zenodo.23329504**
+provides the seed 0 model and minimal segmentation inference tools as a single
+`FacadeLineNet-models_v2.zip`, its `.sha256` file and an English user guide.
+The `v2` suffix identifies a packaging revision; the checkpoint remains model
+version 1.0.1 and its parameters are unchanged. No split-volume restoration is
+required. Quantitative-analysis tools, Supplementary Data S1 and the other seeds
+are not included in this Zenodo package.
 
-Suggested citation:
-Lee, J. H., Ostwald, M. J., & Ji, S. Y. (2026). *FacadeLineNet A5 facade
-segmentation and structural index generator* (Version 1.0.1) [Computer software].
-Zenodo. https://doi.org/10.5281/zenodo.23329504
+The [original GitHub v1.0.1 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.1)
+retains its complete archive and three checkpoint attachments. That historical
+archive is different from the current Zenodo model package; its tag and assets
+remain unchanged. See [Zenodo package details](docs/ZENODO_RELEASE.md).
+
+Suggested citation for the current Zenodo model deposit:
+Lee, J. H., Ostwald, M. J., & Ji, S. Y. (2026). *FacadeLineNet: Model for Semantic
+Segmentation of Architectural Façade Line Drawings* (Version 1.0.1) [Model and
+inference code]. Zenodo. https://doi.org/10.5281/zenodo.23329504
 
 This software archive accompanies a manuscript under peer review. Software DOI
 registration does not imply acceptance or peer-review certification of that manuscript.

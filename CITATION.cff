@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the archived software version using this DOI. Cite the accompanying manuscript separately when available."
-title: "FacadeLineNet A5 facade segmentation and structural index generator"
+message: "Please cite the model deposit using this DOI. Packaging revision v2 retains model version 1.0.1. Cite the accompanying manuscript separately when available."
+title: "FacadeLineNet: Model for Semantic Segmentation of Architectural Façade Line Drawings"
 type: software
 version: 1.0.1
 date-released: '2026-10-13'
@@ -24,4 +24,4 @@ keywords:
   - facade segmentation
   - architectural line drawings
   - semantic segmentation
-  - structural indices
+  - model inference

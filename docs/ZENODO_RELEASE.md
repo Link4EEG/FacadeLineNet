@@ -1,37 +1,45 @@
-# Fixed archive on Zenodo
+# Model-focused Zenodo deposit
 
-GitHub hosts current code; the v1.0.1 release packages a fixed snapshot and all
-three A5 checkpoints. The first Zenodo archive is published:
-https://doi.org/10.5281/zenodo.23329504 (version 1.0.1).
+The current deposit is https://doi.org/10.5281/zenodo.23329504 (model version 1.0.1).
 The all-versions DOI is https://doi.org/10.5281/zenodo.23329503.
-Use the version DOI when citing this exact research software release.
 
-The complete ZIP includes source code, licences, author metadata, numerical
-results, schematic examples and model weights. A GitHub-generated source ZIP
-alone excludes the separately attached model files.
+## Download files
 
-For reliable transfer, Zenodo hosts the complete ZIP as 31 binary split volumes
-(`.zip.001` through `.zip.031`) plus a restoration script and checksum manifests.
-Download all volumes, `restore_archive.py` and `split_manifest.json` into one
-folder and run `python restore_archive.py`, or open `.zip.001` with 7-Zip.
-The rebuilt ZIP is byte-identical to the complete GitHub v1.0.1 release asset.
-All 36 files on Zenodo were verified against local MD5 checksums before publication;
-local restoration was additionally verified against the original ZIP's SHA-256.
+- `FacadeLineNet-models_v2.zip` (approximately 106.9 MB).
+- `FacadeLineNet-models_v2.sha256`: SHA-256 checksum of that ZIP.
+- `FacadeLineNet-models_v2_USAGE_EN.md`: concise guide in Australian English.
 
-The archived files retain their pre-publication wording about DOI reservation.
-This page and the current README/CITATION.cff record the completed publication;
-the v1.0.1 tag and archived release files remain unchanged.
+The ZIP includes the A5 seed 0 checkpoint, model structure, pre-processing,
+native-resolution tiled inference, region-consistency processing, colour mapping,
+`segment.py`, dependencies, class definitions, documentation and licence texts.
+The English guide is also included in the ZIP as `USAGE_EN_AU.md`.
+See [usage instructions](MODEL_USAGE_EN.md).
 
-The archive is component-licensed: software/documentation MIT; model weights,
-numerical data, metadata and schematic assets CC BY 4.0. Both licences are
-recorded on Zenodo; see RIGHTS.md for exact scope. Author sources are in AUTHORS.md.
+This package excludes quantitative-analysis tools, structural-index computation,
+batch-processing tools, Supplementary Data S1, other seed checkpoints and examples.
+Original research drawings and expert masks are not distributed.
 
-For subsequent changes create a new version, retain the existing tagged snapshot,
-and update the version DOI after publication. Do not create a duplicate record
-for this v1.0.1 archive. GitHub automatic integration is optional; verify that any
-future archive actually contains the model files.
+## Model version and packaging revision
 
-Official guidance:
-- https://help.zenodo.org/docs/deposit/create-new-upload/
-- https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/
-- https://help.zenodo.org/docs/github/archive-software/github-upload/
+Only the distribution scope has changed. `v2` denotes the packaging revision;
+the model remains version 1.0.1. Seed 0 is unchanged and can be used independently.
+Model weights, metadata and palettes use CC BY 4.0; code and documentation use MIT.
+The corrected author affiliations are provided in the package README and the
+current record; see [author information](AUTHORS.md).
+
+## Historical complete release
+
+The original [GitHub v1.0.1 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.1)
+retains the complete software archive, all three checkpoints, supplementary
+results and examples. Those tagged files and release attachments remain unchanged.
+Its full-archive SHA-256 is
+`326eab1a80e0700a33974efab2da74d0810e2e76ef5e1180b5a77945d765260d`.
+
+Zenodo previously distributed that complete ZIP as 31 split volumes with
+restoration scripts and checksums. Those files have been replaced by the current
+three-file model deposit. No split restoration is now required, and the current
+Zenodo ZIP is not byte-identical to the historical complete GitHub ZIP.
+
+Use the current record title when citing the model deposit. Future changes to
+trained parameters should be versioned separately from packaging-only changes.
+Archival publication does not certify acceptance or peer review of the manuscript.
