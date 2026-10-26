@@ -27,18 +27,31 @@ Model weights, metadata and palettes use CC BY 4.0; code and documentation use M
 The corrected author affiliations are provided in the package README and the
 current record; see [author information](AUTHORS.md).
 
-## Historical complete release
+## GitHub release files and historical materials
 
-The original [GitHub v1.0.1 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.1)
-retains the complete software archive, all three checkpoints, supplementary
-results and examples. Those tagged files and release attachments remain unchanged.
-Its full-archive SHA-256 is
-`326eab1a80e0700a33974efab2da74d0810e2e76ef5e1180b5a77945d765260d`.
+The [GitHub v1.0.1 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.1)
+has the same three uploaded files as Zenodo: the model ZIP, its checksum and the
+English user guide. GitHub also displays automatically generated source-code
+archives; these do not include weights and are not the model download.
 
-Zenodo previously distributed that complete ZIP as 31 split volumes with
-restoration scripts and checksums. Those files have been replaced by the current
-three-file model deposit. No split restoration is now required, and the current
-Zenodo ZIP is not byte-identical to the historical complete GitHub ZIP.
+The historical [GitHub v1.0.0 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.0)
+retains the complete software archive, all three standalone A5 checkpoints,
+supplementary results and examples. The standalone checkpoint parameters are
+identical to those previously attached to v1.0.1. The v1.0.0 complete ZIP has
+SHA-256 `f7d6b7844f1347e48f0d44df79148f5cd00bd2e58f00bb6846f431cfd088c3eb`;
+it is a different historical package from the removed v1.0.1 complete ZIP.
+Use the corrected author affiliations in current documentation rather than
+historical embedded author metadata.
+
+The former v1.0.1 complete ZIP, three standalone checkpoints and historical
+`SHA256SUMS.txt` have been removed from the v1.0.1 release attachments.
+Local research copies are retained. Git tags are unchanged.
+The current model ZIP is self-contained and needs no other checkpoint download.
+The downloader in the current GitHub branch uses verified v1.0.0 attachments.
+
+Zenodo previously distributed the complete v1.0.1 ZIP as 31 split volumes with
+restoration scripts and checksums. That layout has been replaced by the current
+three-file model deposit. No split restoration is now required.
 
 Use the current record title when citing the model deposit. Future changes to
 trained parameters should be versioned separately from packaging-only changes.

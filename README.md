@@ -60,7 +60,9 @@ python -m pip install -e .
 python scripts/download_weights.py --seed 0
 ```
 
-All three A5 checkpoints are versioned release assets, approximately 115 MB each.
+All three standalone A5 checkpoints remain available in the historical
+[v1.0.0 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.0),
+approximately 115 MB each. The downloader uses those verified attachments.
 Use `--seed 1` or `--seed 2` to download another run. SHA-256 checksums are verified
 automatically. An archived bundle includes `weights/` directly and needs no download.
 
@@ -139,10 +141,16 @@ version 1.0.1 and its parameters are unchanged. No split-volume restoration is
 required. Quantitative-analysis tools, Supplementary Data S1 and the other seeds
 are not included in this Zenodo package.
 
-The [original GitHub v1.0.1 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.1)
-retains its complete archive and three checkpoint attachments. That historical
-archive is different from the current Zenodo model package; its tag and assets
-remain unchanged. See [Zenodo package details](docs/ZENODO_RELEASE.md).
+The [GitHub v1.0.1 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.1)
+now has the same three uploaded files as Zenodo: the model ZIP, its checksum
+and the English user guide. Download the model ZIP rather than GitHub's
+automatically generated source-code archives, which do not include model weights.
+
+For the broader software archive, three standalone checkpoints and supplementary
+results, use the historical [v1.0.0 release](https://github.com/Link4EEG/FacadeLineNet/releases/tag/v1.0.0).
+The model parameters are unchanged. Earlier complete archives contain historical
+author metadata; use the corrected affiliations in the current model package and
+[author documentation](docs/AUTHORS.md). See [package details](docs/ZENODO_RELEASE.md).
 
 Suggested citation for the current Zenodo model deposit:
 Lee, J. H., Ostwald, M. J., & Ji, S. Y. (2026). *FacadeLineNet: Model for Semantic

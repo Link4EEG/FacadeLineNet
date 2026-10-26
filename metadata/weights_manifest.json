@@ -6,21 +6,21 @@
       "seed": 0,
       "bytes": 115380489,
       "sha256": "ec9f0ffc2db2a44be4eada80795c45f3f3d03c3c7c77d35187dffec84fcfd0d1",
-      "url": "https://github.com/Link4EEG/FacadeLineNet/releases/download/v1.0.1/A5_seed0.pt"
+      "url": "https://github.com/Link4EEG/FacadeLineNet/releases/download/v1.0.0/A5_seed0.pt"
     },
     {
       "filename": "A5_seed1.pt",
       "seed": 1,
       "bytes": 115380489,
       "sha256": "f51b35af95d4a5ee6887e0124a4e1ff3ddf42751da3da2430ecda3205c1dda8c",
-      "url": "https://github.com/Link4EEG/FacadeLineNet/releases/download/v1.0.1/A5_seed1.pt"
+      "url": "https://github.com/Link4EEG/FacadeLineNet/releases/download/v1.0.0/A5_seed1.pt"
     },
     {
       "filename": "A5_seed2.pt",
       "seed": 2,
       "bytes": 115380489,
       "sha256": "7b80f1c0338336c2d1240a65d92e767eae59356e9757dbfe0019b291d8fe5cb1",
-      "url": "https://github.com/Link4EEG/FacadeLineNet/releases/download/v1.0.1/A5_seed2.pt"
+      "url": "https://github.com/Link4EEG/FacadeLineNet/releases/download/v1.0.0/A5_seed2.pt"
     }
   ]
 }
